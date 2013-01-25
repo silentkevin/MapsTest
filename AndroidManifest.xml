@@ -38,6 +38,9 @@
             </intent-filter>
         </activity>
 
+        <service android:name="net.sksi.mapstest.LocationService"
+            />
+
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyBI5lbgsCxWEcOddUOow-0rzJPO6nyA9tk" />

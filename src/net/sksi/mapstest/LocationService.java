@@ -12,7 +12,6 @@ import android.os.Bundle;
 import android.os.IBinder;
 import android.util.Log;
 
-
 public class LocationService extends Service {
     public class LocationServiceBinder extends Binder {
         public LocationService getService() {
